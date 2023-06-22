@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <suite name="AnnotationsSuite">
+  <test name="AnnotationsTest">
+    <classes>
+      <class name="Maven_TestNGNew.Maven_TestNG.AllAnnotations"/>
+	  <class name="Maven_TestNGNew.Maven_TestNG.annotationsDemo"/> 
+	 </classes>
+  </test> 
+</suite> -->
+<suite name="Parametersuite">
+	<parameter name="Browser" value="edge"/>
+	<parameter name="Url" value="https://practicetestautomation.com/practice-test-login/"/>
+	<parameter name="username" value="student"/>
+	<!-- <parameter name="password" value="Password123>"/>-->
+	<test name="parametertest">
+		<classes>
+			<class name="Maven_TestNGNew.Maven_TestNG.Param">
+				<methods>
+					<include name="Browserlaunch"></include>
+					<include name="Launchapplication"></include>
+					<include name="Logincrediential"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

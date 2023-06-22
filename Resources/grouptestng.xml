@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite">
+  <test name="Test">
+	 <groups>
+		  <run>
+			  <include name="sanity"></include>
+			  <exclude name="smoke"></exclude>  ************exclusion groups **************
+		  </run>
+	  </groups> -->
+	  <!--*********** Meta grouping**************-->
+	  <!--<groups>
+		  <define name="dailyBuild">
+		   <include name="smoke"/>
+		    <include name="regression"/>
+		    <include name="functional"/>
+		   </define>
+	  </groups>
+	  <groups>
+		  <define name="weeklyBuild">
+		   <include name="smoke"/>
+		   <include name="regression"/>
+		   <include name="functional"/>
+		   <include name="sanity"/>
+		   </define>
+		   <run>
+			  <include name="weeklyBuild"/>
+		   </run>
+	  </groups>
+    <classes> 
+      <class name="org.test.groupingtestng.Grouptest1"/>
+      <class name="org.test.groupingtestng.Grouptest2"/>
+    </classes>
+  </test> 
+</suite> -->
